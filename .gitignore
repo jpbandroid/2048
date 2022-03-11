@@ -338,3 +338,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Ignore sounds folder
+Epic 2048/Assets/Sounds/
