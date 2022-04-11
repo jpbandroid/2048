@@ -2,6 +2,8 @@
 
 This project is a UWP version of the well-known game 2048 with extended layouts (including 4 x 4, 5 x 5, 6 x 6) and beautiful Fluent Design for Windows 10 platform; besides, keyboard, mouse, touchscreen and Xbox certified/compatible controller are all supported to play the game!
 
+Download and Play: [Get Epic 2048 - Microsoft Store](https://www.microsoft.com/en-us/p/epic-2048/9nrx2zd7hj6j?activetab=pivot:overviewtab)
+
 ### How to Play
 Use arrow keys/D-pad or swipe on screen to move tiles. When two tiles with the same number touch, they merge into one. Get the number "2048" to win!
 
