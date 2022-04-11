@@ -90,7 +90,7 @@ namespace Epic_2048
         private void MoveTile(Cell fromCell, Cell toCell)
         {
             // Play a sound effect
-            App.GameSounds.Play(SoundEfxEnum.MOVETILE2);
+            //App.GameSounds.Play(SoundEfxEnum.MOVETILE2);
             Tile tile = tiles[fromCell.Row, fromCell.Column];
             tile.MoveTo(toCell.Row, toCell.Column);
             tiles[fromCell.Row, fromCell.Column] = null;
@@ -100,7 +100,7 @@ namespace Epic_2048
         private void MergeTiles(Cell fromCell1, Cell fromCell2, Cell toCell)
         {
             // Play a sound effect
-            App.GameSounds.Play(SoundEfxEnum.MERGETILE);
+            //App.GameSounds.Play(SoundEfxEnum.MERGETILE);
             Tile tile = tiles[fromCell2.Row, fromCell2.Column];
             tile.MergeTo(tiles[fromCell1.Row, fromCell1.Column], toCell.Row, toCell.Column);
             tiles[fromCell1.Row, fromCell1.Column] = tiles[fromCell2.Row, fromCell2.Column] = null;
