@@ -9,7 +9,7 @@
 
   <Identity
     Name="370Willvin.Epic2048"
-    Publisher="CN=D3491891-48BD-40C5-BB81-7855F907B9C2"
+    Publisher="CN=Willvin"
     Version="2.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="3825180f-e7ac-485e-b322-4adeccf236e9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
