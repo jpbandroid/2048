@@ -22,8 +22,6 @@ namespace Epic_2048
 
         public const int MinWindowWidth = 370, MinWindowHeight = 500;
 
-        public static SoundEffect GameSounds;
-
         public App()
         {
             InitializeComponent();
@@ -77,9 +75,6 @@ namespace Epic_2048
                     // parameter
                     rootFrame.Navigate(typeof(MainPage), e.Arguments);
                 }
-
-                // My Application Sound Effects
-                GameSounds = new SoundEffect();
 
                 // Ensure the current window is active
                 Window.Current.Activate();
