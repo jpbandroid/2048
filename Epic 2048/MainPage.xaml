@@ -55,7 +55,7 @@
                         <TextBlock>
                             Version: <Run Text="{x:Bind Version}"/>
                             <LineBreak/>
-                            © 2020 Willvin. All rights reserved.
+                            © 2024 jpb. Licensed under the MIT License.
                             <LineBreak/>
                             Source code: <Hyperlink NavigateUri="https://github.com/willvin313/Epic-2048">GitHub</Hyperlink>
                         </TextBlock>
